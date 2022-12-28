@@ -1,0 +1,31 @@
+{
+    "0000001": {
+        "name": "milk",
+        "brand": "moolk",
+        "price": 1.90,
+        "isInStock": true,
+        "discount": null
+    },
+    "0000002": {
+        "name": "coffe",
+        "brand": "mr.bean",
+        "price": 1.40,
+        "isInStock": true,
+        "discount": null
+    },
+    "0000003": {
+        "name": "suger",
+        "brand": "yesplease",
+        "price": 0.50,
+        "isInStock": true,
+        "discount": null
+    },
+    "0000004": {
+        "name": "beer",
+        "brand": "bear",
+        "price": 2.49,
+        "isInStock": true,
+        "discount": null
+    }
+    
+}
