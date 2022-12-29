@@ -6,7 +6,6 @@ html{
     margin: 0;
     padding: 0;
 }
-
 body{
     --background-color: #b7b7b7;
     --primary-text-color: #1d1f1f;
@@ -22,7 +21,12 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+.secondary-text{
+    color: var(--scondary-text-color);
+}
+button{
+    cursor: pointer;
+}
 #navigation-bar{
     background-color: aliceblue;
     height: 10%;
@@ -42,11 +46,17 @@ body{
     display: flex;
     width: 100%;
     height: 100%;
+    overflow-y: hidden;
 }
 #products{
     width: 66.6%;
+    height: 100%;
+    min-width: 66.6%;
+    max-width: 66.6%;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fill, 12rem)
 }
 .product-container{
     display: flex;
@@ -62,8 +72,37 @@ body{
 .product-image{
     width: 100%;
 }
+.product-name{
+    display: flex;
+    flex-direction: row;
+}
+.product-amount{
+    background-color: transparent;
+}
 #cart{
+    padding: 1rem;
     width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cartline{
+    width: 90%;
+    /* height: 3rem; */
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: solid 3px var(--main-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cartline-items{
+    overflow-y: scroll;
+}
+.cartline-data{
+    display: flex;
+    flex-direction: column;
 }
 footer{
     padding: 0;
