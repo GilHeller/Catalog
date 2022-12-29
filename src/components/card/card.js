@@ -4,19 +4,17 @@ import Product from "../product";
 export default class Card extends Product{
     constructor(props) {
         super(props);
-        this.amount = 0;
     }
 
     handleChange(e) {
-        // console.log(e.target);
-        if (this.amount < e.target.value){
-            this.amount = this.amount + 1;
-            this.handleInc(key, this.amount);
-        }
-        else if (this.amount > e.target.value){
-            this.amount = this.amount - 1;
-            this.handleDec(key, this.amount)
-        }
+            if (this.amount < e.target.value){
+                this.amount = this.amount + 1;
+                this.handleInc(key, this.amount);
+            }
+            else if (this.amount > e.target.value){
+                this.amount = this.amount - 1;
+                this.handleDec(key, this.amount)
+            }
     }
 
     render(parentNodeId) {
@@ -29,10 +27,11 @@ export default class Card extends Product{
                 <p>${this?.name || "product"}</p>
                 <p class="secondary-text">/${this.brand}</p>
             </div>
-            <div class="product-price">${this.price || "error - no price"}$</div>
+            <div class="product-price">${parseFloat(this.price).toFixed(2) || "error - no price"}$</div>
             <input type="number" id=${this._id} min="0" value="0" class="product-amount">
         `);
-        cardContainer.getElementsByClassName("product-amount")[0].addEventListener("change", this.handleChange)
+        // .addEventListener("change", this.handleChange);
         document.getElementById(parentNodeId).append(cardContainer);
+        // document.getElementById(this._id).addEventListener("change", this.handleChange);
     }
 }

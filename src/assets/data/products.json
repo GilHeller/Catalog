@@ -30,7 +30,7 @@
     "0000005": {
         "name": "water",
         "brand": "A",
-        "price": 0.27,
+        "price": "0.27",
         "isInStock": true,
         "discount": null
     },
