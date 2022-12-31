@@ -31,36 +31,19 @@ module.exports = {
                     "style-loader",
                     "css-loader"
                 ],
-                // type: 'text/css' 
             },
             {
                 test: /\.(gif|png|jpe?g)$/,
                 use: [
-                  {
-                    loader: 'file-loader',
-                    options: {
-                      name: '[name].[ext]',
-                      outputPath: 'src/assets/images/'
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'src/assets/images/'
+                        }
                     }
-                  }
                 ]
-              },
-            // {
-            //     test: /\.(png|jpeg|jpg)$/,
-            //     type: 'asset/resource'
-            // },
-            // {
-            //     test: /\.m?js$/,
-            //     resourceQuery: { not: [/raw/] },
-
-            // },
-            // {
-            //     test: /\.html/,
-            //     type: 'asset/resource',
-            //     generator: {
-            //         filename: 'static/[hash][ext][query]'
-            //     }
-            // }
+            },
         ]
     },
     plugins: [
