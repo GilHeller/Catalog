@@ -1,4 +1,4 @@
-import Product from "../product";
+import Product from "./product";
 
 export default class Cartline extends Product{
     constructor(props){
