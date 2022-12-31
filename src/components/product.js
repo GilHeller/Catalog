@@ -5,5 +5,6 @@ export default class Product{
         this.brand = props.brand;
         this.price = parseFloat(props.price).toFixed(2);
         this.amount = 0;
+        this.image = props?.img
     }
 }

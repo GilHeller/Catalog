@@ -4,175 +4,135 @@
         "brand": "moolk",
         "price": 1.90,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/milk.jpg"
     },
     "0000002": {
         "name": "coffe",
         "brand": "mr.bean",
         "price": 1.40,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/coffee.png"
     },
     "0000003": {
         "name": "suger",
         "brand": "yesplease",
         "price": 0.50,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/sugar.jpg"
     },
     "0000004": {
         "name": "beer",
         "brand": "bear",
         "price": 2.49,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/beer.png"
     },
     "0000005": {
         "name": "water",
         "brand": "A",
-        "price": "0.27",
+        "price": 0.27,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/water.png"
     },
     "0000006": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
+        "name": "apple",
+        "brand": "zuke",
+        "price": 0.2,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img":"/src/assets/images/apple.jpg"
     },
     "0000007": {
-        "name": "nuts",
-        "brand": "meshuga",
+        "name": "cake",
+        "brand": "delicious",
         "price": 3.00,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/cake.jpg"
     },
     "0000008": {
-        "name": "nuts",
-        "brand": "meshuga",
+        "name": "chicken",
+        "brand": "snitzel inc.",
         "price": 3.00,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/chicken.png"
     },
     "0000009": {
         "name": "nuts",
         "brand": "meshuga",
         "price": 3.00,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/cashew.png"
     },
     "0000010": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
+        "name": "doughnut",
+        "brand": "philip's",
+        "price": 2.67,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/doughnut.png"
     },
     "0000011": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
+        "name": "hotdog",
+        "brand": "burn",
+        "price": 2.10,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/hotdog.png"
     },
     "0000012": {
-        "name": "nuts",
-        "brand": "meshuga",
+        "name": "meat",
+        "brand": "maker",
         "price": 3.00,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/meat.jpg"
     },
     "0000013": {
-        "name": "nuts",
+        "name": "peanuts",
         "brand": "meshuga",
         "price": 3.00,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/peanuts.png"
     },
     "0000014": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
+        "name": "red wine",
+        "brand": "alco",
+        "price": 6.34,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/red_wine.png"
     },
     "0000015": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
+        "name": "tea",
+        "brand": "pinky",
+        "price": 5.1,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/tea.png"
     },
     "0000016": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
+        "name": "wine",
+        "brand": "alco",
+        "price": 6.34,
         "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/wine.png"
     },
     "0000017": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
+        "name": "cheese",
+        "brand": "stinky",
+        "price": 4.90,
         "isInStock": true,
-        "discount": null
-    },
-    "0000018": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
-        "isInStock": true,
-        "discount": null
-    },
-    "0000019": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
-        "isInStock": true,
-        "discount": null
-    },
-    "0000020": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
-        "isInStock": true,
-        "discount": null
-    },
-    "0000021": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
-        "isInStock": true,
-        "discount": null
-    },
-    "0000022": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
-        "isInStock": true,
-        "discount": null
-    },
-    "0000023": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
-        "isInStock": true,
-        "discount": null
-    },
-    "0000024": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
-        "isInStock": true,
-        "discount": null
-    },
-    "0000025": {
-        "name": "nuts",
-        "brand": "meshuga",
-        "price": 3.00,
-        "isInStock": true,
-        "discount": null
+        "discount": null,
+        "img": "/src/assets/images/cheese.png"
     }
-    
 }
