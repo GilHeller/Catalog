@@ -17,9 +17,9 @@ import sugar from "./assets/images/sugar.jpg";
 import tea from "./assets/images/tea.png";
 import water from "./assets/images/water.png";
 import wine from "./assets/images/wine.png";
-import ProductCard from "./components/card/card";
+import ProductCard from "./components/card";
 import productsData from "./assets/data/products.json";
-import Cartline from "./components/cart/cartLine"; 
+import Cartline from "./components/cartLine"; 
 
 const PRODUCTS_NODE_ID = "products";
 const CART_NODE_ID = "cartline-items";

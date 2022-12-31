@@ -1,5 +1,5 @@
 import milk from "../../assets/images/milk.jpg";
-import Product from "../product";
+import Product from "./product";
 
 export default class Card extends Product{
     constructor(props) {
